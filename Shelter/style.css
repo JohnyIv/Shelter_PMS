@@ -39,12 +39,12 @@ a {
 }
 
 .list-item-img:nth-child(2)::before{
-    background-image: url('../img/Book.png');
+    background-image: url('/img/Book.png');
       
 }
 
 .list-item-img:nth-child(3)::before{
-    background-image: url('../img/headphone.png');
+    background-image: url('img/headphone.png');
      
 }
 
