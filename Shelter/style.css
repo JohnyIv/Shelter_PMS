@@ -39,7 +39,7 @@ a {
 }
 
 .list-item-img:nth-child(2)::before{
-    background-image: url('/img/Book.png');
+    background-image: url('img/Book.png');
       
 }
 
@@ -49,7 +49,7 @@ a {
 }
 
 .list-item-img:nth-child(4)::before{
-    background-image: url('../img/mark.png'); 
+    background-image: url('img/mark.png'); 
 
 }
 
@@ -103,7 +103,7 @@ button {
 .bottom-header li::before {
     content: '';
     display: block;
-    background-image: url('../img/Star.svg');
+    background-image: url('img/Star.svg');
     background-repeat: no-repeat;
     background-position: center;
     width: 24px;
@@ -242,14 +242,14 @@ button {
 
 .page-item-long {
     height: 560px;
-    background-image: url('../img/banner-1.jpg');
+    background-image: url('img/banner-1.jpg');
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .page-item-long2 {
     
-    background-image: url('../img/Mask Group.png');
+    background-image: url('img/Mask Group.png');
     text-align: center;
     padding-top: 80px;
     background-position: center;
@@ -347,7 +347,7 @@ button {
 
 .page-item-long3 {
     height: 676px;
-    background-image: url('../img/Mask Group.png');
+    background-image: url('img/Mask Group.png');
     background-color: #FAFAFF;
     
 }
@@ -392,7 +392,7 @@ button {
 
 @font-face {
     font-family: 'Montserrat-Regular';
-    src: url('../fonts/Montserrat/Montserrat-Regular.ttf') format('truetype');
+    src: url('fonts/Montserrat/Montserrat-Regular.ttf') format('truetype');
 
     font-weight: 400;
 
@@ -401,7 +401,7 @@ button {
 
 @font-face {
     font-family: 'Montserrat-Medium';
-    src: url('../fonts/Montserrat/Montserrat-medium.ttf') format('truetype');
+    src: url('.fonts/Montserrat/Montserrat-medium.ttf') format('truetype');
 
     font-weight: 500;
 
@@ -410,7 +410,7 @@ button {
 
 @font-face {
     font-family: 'Montserrat-SemiBold';
-    src: url('../fonts/Montserrat/Montserrat-SemiBold.ttf') format('truetype');
+    src: url('fonts/Montserrat/Montserrat-SemiBold.ttf') format('truetype');
 
     font-weight: 600;
 
@@ -419,7 +419,7 @@ button {
 
 @font-face {
     font-family:'MonstserratAlt-SemiBold' ;
-    src: url('../fonts/Montserrat_Alternates/MontserratAlternates-SemiBold.ttf') format('truetype');
+    src: url('fonts/Montserrat_Alternates/MontserratAlternates-SemiBold.ttf') format('truetype');
 
     font-weight: 600;
 
@@ -428,7 +428,7 @@ button {
 
 @font-face {
     font-family:'MonstserratAlt-Medium' ;
-    src: url('../fonts/Montserrat_Alternates/MontserratAlternates-Medium.ttf') format('truetype');
+    src: url('fonts/Montserrat_Alternates/MontserratAlternates-Medium.ttf') format('truetype');
 
     font-weight: 500;
 
