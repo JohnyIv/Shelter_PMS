@@ -13,6 +13,8 @@ a {
 .h3-40-semi {
     font-size: 40px;
     font-family: 'Montserrat-SemiBold';
+    margin-top: 0;
+    margin-bottom: 16px;
 }
 
 .list-horizont {
@@ -39,17 +41,17 @@ a {
 }
 
 .list-item-img:nth-child(2)::before{
-    background-image: url('img/Book.png');
+    background-image: url('../img/Book.svg');
       
 }
 
 .list-item-img:nth-child(3)::before{
-    background-image: url('img/headphone.png');
+    background-image: url('../img/headphone.svg');
      
 }
 
 .list-item-img:nth-child(4)::before{
-    background-image: url('img/mark.png'); 
+    background-image: url('../img/mark.svg'); 
 
 }
 
@@ -103,7 +105,7 @@ button {
 .bottom-header li::before {
     content: '';
     display: block;
-    background-image: url('img/Star.svg');
+    background-image: url('../img/Star.svg');
     background-repeat: no-repeat;
     background-position: center;
     width: 24px;
@@ -129,6 +131,33 @@ button {
     margin-left: 32px;
 }
 
+.container-banner {
+    position: absolute;
+    top: 60px;
+    left: 275px;
+    max-width: 662px;
+    color: #3B4B77;
+}
+
+.container-banner h1 {
+    font-family: 'MonstserratAlt-Medium';
+    font-size: 24px;
+    color: #A2ACC7;
+}
+
+.container-banner h3 {
+    font-size: 40px;
+}
+
+.container-banner p {
+    font-size: 24px;
+}
+
+.product-profit {
+    font-size: 16px;
+    color: #192C5C;
+}
+
 .page-item {
     text-align: center;
     max-width: 60.4167%;
@@ -147,6 +176,72 @@ button {
     font-family: 'Montserrat-SemiBold';
 }
 
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1160px;
+    
+    margin: auto;
+}
+
+.container-products {
+    max-width:560px ;
+    padding: 40px 60px 40px 40px;
+    box-sizing: border-box;
+    text-align: left;
+    border-radius: 24px;
+    border:0.5px solid #C4CBD9;
+    box-shadow: 0px 7px 50px rgba(94, 94, 135, 0.23);
+
+}
+
+.prod-name {
+    font-family: 'Montserrat-SemiBold';
+    font-size: 12px;
+    color: #3B4B77;
+}
+
+.container-products h3 {
+    font-size: 32px;
+    color:#FF9E2C ;
+}
+
+.container-products p {
+    font-size: 14px;
+    color:#3B4B77 ;
+}
+
+hr {
+    border: 1px solid #4A4B4E;
+    border-bottom: 0;
+    opacity: 0.4;
+}
+
+.product-profit-list {
+    margin-top: 24px;
+    list-style:none;
+    padding: 0;
+    color: #2F69FF;
+    opacity: 0.7;
+    font-size: 16px;
+    height: 194px;
+}
+
+.product-profit-list li {
+    margin: 10px 0;
+    line-height: 160%;
+}
+
+.big-btn-blue {
+    background-color: #2F69FF;
+    color: #ffffff;
+    width: 260px;
+    border: 1px solid #2f69ff;
+    font-size: 16px;
+    margin: 32px 0;
+}
+
 .no-solution {
     max-width: 560px;
     font-size: 16px;
@@ -163,13 +258,15 @@ button {
 
 .block-cards {
     display: flex;
-    justify-content: space-around;
-    position: relative;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 
 .image-card {
-    width: 100%;
+    margin-left:-181px;
+    margin-top: 45px;
 }
 
 
@@ -219,16 +316,21 @@ button {
 
 .about-prod {
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .text-abs {
-    position: absolute;
-    max-width: 39.6552%;
+    
     top: 25%;
     text-align: left;
-    left:8.6207%;
+    
     color:#3B4B77;
     font-size: 18px;
+    width: 460px;
+    margin-right: 4%;
 }
 
 .text-abs h3 {
@@ -237,24 +339,25 @@ button {
 }
 
 .about-prod-img {
-    margin-right: -602px;
+    margin-right: -285px;
 }
 
 .page-item-long {
     height: 560px;
-    background-image: url('img/banner-1.jpg');
+    background-image: url('../img/banner-1.jpg');
     background-repeat: no-repeat;
     background-position: center;
+    position: relative;
 }
 
 .page-item-long2 {
     
-    background-image: url('img/Mask Group.png');
+    background-image: url('../img/bg.png');
     text-align: center;
-    padding-top: 80px;
+    padding: 80px 0;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: #FAFAFF;
+    background-size: cover;
 }
 
 .page-item-long2 h3 {
@@ -303,7 +406,8 @@ button {
 .education {
    font-size: 18px; 
    display: flex;
-   justify-content: space-between;
+   justify-content: center;
+   align-items: center;
 
 }
 
@@ -327,6 +431,7 @@ button {
     max-width: 555px;
     text-align: left;
     color: #3B4B77;
+    margin-right: 6%;
 }
 
 .social-banner {
@@ -347,21 +452,32 @@ button {
 
 .page-item-long3 {
     height: 676px;
-    background-image: url('img/Mask Group.png');
+    background-image: url('../img/Mask Group.png');
     background-color: #FAFAFF;
-    
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .contacts-sect {
     
 }
 
+.cont-conteiner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
 .contacts {
-    max-width: 48.2759%;
+    width: 50%;
     color: #3B4B77;
-    font-size: 25px;
+    font-size: 24px;
     text-align: left;
-    display: inline-block
+    min-width: 360px;
+    margin-bottom: 60px;
 }
 
 .contacts a:first-of-type{
@@ -369,21 +485,76 @@ button {
 }
 
 .contacts-form {
-    max-width: 48.2759%;
-    display: inline-block;
-    vertical-align:top;
+    padding-top: 63px;
+    text-align: left;
+    position: relative;
+    margin-bottom: 60px;
 }
 
-.contacts-form input {
+#Name,#phone {
+    
     width: 460px;
+    display: block;
     height: 48px;
     border: 1px solid #D4D5DB;
     border-radius: 8px;
 }
 
-.contacts-form form {
-    display: flex;
-    flex-direction: column;
+#Name {
+    margin-bottom: 25px;
+}
+
+.fly-label {
+    position: absolute;
+    left: 31px;
+    top: 55px;
+    background-color: #fff;
+    padding: 0 16px;
+    font-family: 'Montserrat-SemiBold';
+    font-size: 12px;
+}
+
+.fly-label:nth-of-type(2) {
+    top: 132px;
+}
+
+.contacts-form .big-btn {
+    margin: 24px 0;
+}
+
+#pers-info {
+    display: none;
+}
+
+#pers-info:checked~.checkbox:after {
+    content: '';
+    display: block;
+    width: 16px;
+    height: 10px;
+    border-left:2px solid green;
+    border-bottom:2px solid green;
+    transform: rotate(-45deg);
+} 
+
+.checkbox {
+    border: 1px solid #D4D5DB;
+    border-radius: 4px;
+    display: block;
+    width: 16px;
+    height: 16px; 
+    position: relative;
+    }
+
+.confirm {
+    position: absolute;
+    left: 32px;
+    bottom: 0px;
+    width: max-content;
+}
+
+.confirm a {
+    text-decoration: underline;
+    color: #2F69FF;
 }
 
 .map {
@@ -392,7 +563,7 @@ button {
 
 @font-face {
     font-family: 'Montserrat-Regular';
-    src: url('fonts/Montserrat/Montserrat-Regular.ttf') format('truetype');
+    src: url('../fonts/Montserrat/Montserrat-Regular.ttf') format('truetype');
 
     font-weight: 400;
 
@@ -401,7 +572,7 @@ button {
 
 @font-face {
     font-family: 'Montserrat-Medium';
-    src: url('.fonts/Montserrat/Montserrat-medium.ttf') format('truetype');
+    src: url('../fonts/Montserrat/Montserrat-medium.ttf') format('truetype');
 
     font-weight: 500;
 
@@ -410,7 +581,7 @@ button {
 
 @font-face {
     font-family: 'Montserrat-SemiBold';
-    src: url('fonts/Montserrat/Montserrat-SemiBold.ttf') format('truetype');
+    src: url('../fonts/Montserrat/Montserrat-SemiBold.ttf') format('truetype');
 
     font-weight: 600;
 
@@ -419,7 +590,7 @@ button {
 
 @font-face {
     font-family:'MonstserratAlt-SemiBold' ;
-    src: url('fonts/Montserrat_Alternates/MontserratAlternates-SemiBold.ttf') format('truetype');
+    src: url('../fonts/Montserrat_Alternates/MontserratAlternates-SemiBold.ttf') format('truetype');
 
     font-weight: 600;
 
@@ -428,7 +599,7 @@ button {
 
 @font-face {
     font-family:'MonstserratAlt-Medium' ;
-    src: url('fonts/Montserrat_Alternates/MontserratAlternates-Medium.ttf') format('truetype');
+    src: url('../fonts/Montserrat_Alternates/MontserratAlternates-Medium.ttf') format('truetype');
 
     font-weight: 500;
 
