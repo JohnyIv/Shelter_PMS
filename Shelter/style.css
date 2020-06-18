@@ -403,11 +403,20 @@ hr {
     font-size: 18px;
 }
 
+.clients-img {
+    display: flex;
+    align-items: center;
+    height: 260px;
+    max-width:1460px ;
+    justify-content: space-between;
+} 
+
 .education {
    font-size: 18px; 
    display: flex;
    justify-content: center;
    align-items: center;
+   min-height: 623px;
 
 }
 
