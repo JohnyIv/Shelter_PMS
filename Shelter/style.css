@@ -41,17 +41,17 @@ a {
 }
 
 .list-item-img:nth-child(2)::before{
-    background-image: url('../img/Book.svg');
+    background-image: url('img/Book.svg');
       
 }
 
 .list-item-img:nth-child(3)::before{
-    background-image: url('../img/headphone.svg');
+    background-image: url('img/headphone.svg');
      
 }
 
 .list-item-img:nth-child(4)::before{
-    background-image: url('../img/mark.svg'); 
+    background-image: url('img/mark.svg'); 
 
 }
 
@@ -105,7 +105,7 @@ button {
 .bottom-header li::before {
     content: '';
     display: block;
-    background-image: url('../img/Star.svg');
+    background-image: url('img/Star.svg');
     background-repeat: no-repeat;
     background-position: center;
     width: 24px;
@@ -344,7 +344,7 @@ hr {
 
 .page-item-long {
     height: 560px;
-    background-image: url('../img/banner-1.jpg');
+    background-image: url('img/banner-1.jpg');
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
@@ -352,7 +352,7 @@ hr {
 
 .page-item-long2 {
     
-    background-image: url('../img/bg.png');
+    background-image: url('img/bg.png');
     text-align: center;
     padding: 80px 0;
     background-position: center;
@@ -461,7 +461,7 @@ hr {
 
 .page-item-long3 {
     height: 676px;
-    background-image: url('../img/Mask Group.png');
+    background-image: url('img/Mask Group.png');
     background-color: #FAFAFF;
     background-repeat: no-repeat;
     background-position: center;
@@ -572,7 +572,7 @@ hr {
 
 @font-face {
     font-family: 'Montserrat-Regular';
-    src: url('../fonts/Montserrat/Montserrat-Regular.ttf') format('truetype');
+    src: url('fonts/Montserrat/Montserrat-Regular.ttf') format('truetype');
 
     font-weight: 400;
 
@@ -581,7 +581,7 @@ hr {
 
 @font-face {
     font-family: 'Montserrat-Medium';
-    src: url('../fonts/Montserrat/Montserrat-medium.ttf') format('truetype');
+    src: url('fonts/Montserrat/Montserrat-medium.ttf') format('truetype');
 
     font-weight: 500;
 
@@ -590,7 +590,7 @@ hr {
 
 @font-face {
     font-family: 'Montserrat-SemiBold';
-    src: url('../fonts/Montserrat/Montserrat-SemiBold.ttf') format('truetype');
+    src: url('fonts/Montserrat/Montserrat-SemiBold.ttf') format('truetype');
 
     font-weight: 600;
 
@@ -599,7 +599,7 @@ hr {
 
 @font-face {
     font-family:'MonstserratAlt-SemiBold' ;
-    src: url('../fonts/Montserrat_Alternates/MontserratAlternates-SemiBold.ttf') format('truetype');
+    src: url('fonts/Montserrat_Alternates/MontserratAlternates-SemiBold.ttf') format('truetype');
 
     font-weight: 600;
 
@@ -608,7 +608,7 @@ hr {
 
 @font-face {
     font-family:'MonstserratAlt-Medium' ;
-    src: url('../fonts/Montserrat_Alternates/MontserratAlternates-Medium.ttf') format('truetype');
+    src: url('fonts/Montserrat_Alternates/MontserratAlternates-Medium.ttf') format('truetype');
 
     font-weight: 500;
 
